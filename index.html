@@ -72,7 +72,7 @@
   <main>
     <h1>CatWar: скрытие имени нападающего в логе БР</h1>
     <p>Скрывает имя нападающего в логе боевого режима (БР) на поле <code>/cw3</code> <strong>catwar.su</strong> и <strong>catwar.net</strong>: <code>Имя =&gt; я (хвост)</code> превращается в <code>??? =&gt; я (хвост)</code>. Работает вместе с юзерскриптом uwu и без него.</p>
-    <p class="note">Сделано с помощью <a href="https://z.ai">z.ai</a> по просьбе <a href="https://catwar.su/cat173433">cat173433</a>.</p>
+    <p class="note">Сделано с помощью <a href="https://z.ai">z.ai</a> по просьбе 💖🌸 <a href="https://catwar.su/cat173433">cat173433</a> 🌸💖</p>
     <p class="downloads">
       <a class="download" href="./catwar-br-hide-attackers.user.js">Скачать юзерскрипт</a>
     </p>
@@ -87,13 +87,6 @@
 
     <h2>Настройка</h2>
     <p>В начале скрипта есть константа <code>REPLACEMENT</code> — чем заменять имя: <code>'???'</code>, <code>'***'</code>, <code>'[скрыто]'</code> или пустая строка (имя просто исчезнет).</p>
-
-    <h2>Как это работает</h2>
-    <ul>
-      <li>Стандартный лог боя: <code>#fightLog</code>, записи <code>span.log_paws / .log_claws / .log_teeth</code>.</li>
-      <li>Компактный лог uwu: <code>#uwu-Compacted-Fight-Log</code>, текст в <code>.text</code>.</li>
-      <li>Новые записи скрываются на лету (MutationObserver), уже существующие — при загрузке страницы.</li>
-    </ul>
   </main>
 </body>
 </html>
